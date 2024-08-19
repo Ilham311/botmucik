@@ -1,6 +1,6 @@
 from telethon import TelegramClient, events
 import base64
-import requests 
+import requests
 
 API_ID = '961780'
 API_HASH = 'bbbfa43f067e1e8e2fb41f334d32a6a7'
