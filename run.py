@@ -37,7 +37,7 @@ def download_spotify_track(track_id, track_name, artist_name=None):
         return filename
     return None
 
-@client.on(events.NewMessage(pattern='/song (.+)'))
+@client.on(events.NewMessage(pattern='/lagu (.+)'))
 async def handle_song_request(event):
     keyword = event.pattern_match.group(1)
     message = await event.respond(f"🔍 Mencari Musik '{keyword}'...")
