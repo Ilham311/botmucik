@@ -4,7 +4,7 @@ import requests
 
 API_ID = '961780'
 API_HASH = 'bbbfa43f067e1e8e2fb41f334d32a6a7'
-BOT_TOKEN = '5037870628:AAF5SUq-ay1GE9fjuIbqr0WzFnATf14nebc'
+BOT_TOKEN = '7375007973:AAEDZnqXwCGmJ-fmCkT0PuHzdRLFYsKcIAg'
 
 client = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
