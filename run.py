@@ -5,7 +5,7 @@ except:
     os.system("pip install requests")
     os.system("pip install colorama")
     os.system("pip install prettytable")
-    os.system("pip install webbrowser")
+    
 import threading, requests, ctypes, random, json, time, base64, sys, re
 from prettytable import PrettyTable
 import random
